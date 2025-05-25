@@ -1,0 +1,107 @@
+{
+  "name": "OpenAI Docs Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#202123",
+    "editor.foreground": "#ffffff",
+    "activityBar.background": "#0F0F10",
+    "activityBar.foreground": "#ffffff",
+    "sideBar.background": "#0F0F10",
+    "sideBar.foreground": "#ffffff",
+    "editorGroupHeader.tabsBackground": "#151618",
+    "tab.activeBackground": "#202123",
+    "tab.inactiveBackground": "#151618",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#8e8e8e",
+    "statusBar.background": "#0F0F10",
+    "statusBar.foreground": "#ffffff",
+    "titleBar.activeBackground": "#0F0F10",
+    "titleBar.activeForeground": "#ffffff",
+    "terminal.background": "#151618",
+    "terminal.foreground": "#ffffff",
+    "list.activeSelectionBackground": "#2D2D30",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#2D2D30",
+    "input.background": "#151618",
+    "input.foreground": "#ffffff",
+    "dropdown.background": "#151618",
+    "dropdown.foreground": "#ffffff",
+    "quickInput.background": "#151618",
+    "quickInput.foreground": "#ffffff",
+    "button.background": "#10A37F", 
+    "button.foreground": "#ffffff",
+    "progressBar.background": "#10A37F",
+    "badge.background": "#10A37F",
+    "badge.foreground": "#ffffff",
+    "panel.background": "#151618",
+    "panelTitle.activeForeground": "#ffffff",
+    "focusBorder": "#10A37F",
+    "textLink.foreground": "#10A37F",
+    "textLink.activeForeground": "#1AC898"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6A6A6A"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#10A37F"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#A292FF"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "variable.other.object"],
+      "settings": {
+        "foreground": "#E0E0E0"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#10A37F"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": ["entity.name.type", "entity.name.class"],
+      "settings": {
+        "foreground": "#A292FF"
+      }
+    },
+    {
+      "name": "Properties",
+      "scope": ["variable.other.property", "variable.other.object.property"],
+      "settings": {
+        "foreground": "#E0E0E0"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#A292FF"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#10A37F"
+      }
+    }
+  ]
+} 

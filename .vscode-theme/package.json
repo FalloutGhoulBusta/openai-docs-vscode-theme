@@ -1,0 +1,21 @@
+{
+  "name": "openai-docs-theme",
+  "displayName": "OpenAI Docs Theme",
+  "description": "A VS Code theme inspired by the OpenAI documentation website",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "OpenAI Docs Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chatgpt-docs-theme-color-theme.json"
+      }
+    ]
+  }
+} 
