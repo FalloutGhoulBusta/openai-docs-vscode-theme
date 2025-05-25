@@ -23,7 +23,7 @@ jobs:
         working-directory: .vscode-theme
 
       - name: Upload VSIX
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: vsix-package
           path: .vscode-theme/*.vsix
