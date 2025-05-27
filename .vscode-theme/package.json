@@ -3,6 +3,11 @@
   "displayName": "OpenAI Docs Theme",
   "description": "A VS Code theme inspired by the OpenAI documentation website",
   "version": "0.0.1",
+  "publisher": "openai-docs-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FalloutGhoulBusta/openai-docs-vscode-theme"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
