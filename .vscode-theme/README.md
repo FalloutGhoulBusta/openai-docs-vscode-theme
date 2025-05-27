@@ -4,12 +4,17 @@ A dark theme for Visual Studio Code inspired by the OpenAI documentation website
 
 ## Installation
 
-### Local Installation
+### VSIX Installation (Recommended)
+1. Download the latest `.vsix` file from the [releases repository](https://github.com/FalloutGhoulBusta/openai-docs-vscode-theme-releases)
+2. Open VS Code
+3. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) and type "Install from VSIX"
+4. Select the downloaded `.vsix` file
+5. Restart VS Code
+6. Select the theme via `Preferences > Color Theme > OpenAI Docs Theme`
+
+### Development Installation
 1. Clone this repository
-2. Copy the `.vscode-theme` folder to a location of your choice
-3. Open VS Code
-4. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) and type "Install from VSIX"
-5. Navigate to the `.vscode-theme` folder and select the generated .vsix file
+2. Build the VSIX package (see instructions below)
 
 ### Manual Installation
 1. Copy the `.vscode-theme` folder to your VS Code extensions folder:
@@ -21,15 +26,20 @@ A dark theme for Visual Studio Code inspired by the OpenAI documentation website
 
 ## Building the VSIX Package
 
-To build the VSIX package, you'll need to install the VS Code Extension Manager (vsce):
+To build the VSIX package for development or to create a release, follow these steps:
 
-```bash
-npm install -g @vscode/vsce
-cd .vscode-theme
-vsce package
-```
+1. Install the VS Code Extension Manager (vsce) if you haven't already:
+   ```bash
+   npm install -g @vscode/vsce
+   ```
 
-This will generate a .vsix file that you can install in VS Code.
+2. Build the VSIX package:
+   ```bash
+   cd .vscode-theme
+   vsce package
+   ```
+
+3. For new releases, upload the generated `.vsix` file to the [releases repository](https://github.com/FalloutGhoulBusta/openai-docs-vscode-theme-releases).
 
 ## Features
 
